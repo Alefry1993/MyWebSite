@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+
+<meta charset="utf-8">
+
+<!--Linker til de forskjellige stilarkene-->
+<link href="../stilark/mobilStilark.css" type="text/css" rel="stylesheet"/>
+
+<link href="../stilark/stilark.css" type="text/css" rel="stylesheet"/>
+
+<link rel = "stylesheet"
+type = "text/css"
+href = "../stilark/normalize.css" />
+
+<link  rel="stylesheet" 
+media="print" 
+href = "../stilark/print.css" />
+
+<!--Skaper muligheten til endring av stilark når vinduet skaleres ned i størrelse-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--beskrivelse og nøkkelord for nettsiden og denne siden-->
+<meta name="description" content="Hva er Sosiale medier implementering">
+<meta name="keywords" content="Webutvikling, nettsider, Twitter implementering, facebook, open-graph, Sosiale medier">
+
+<!--Bekreftelse på eierskap fra google-->
+<meta name="google-site-verification" content="MjpV88Y46wfTIx0jAgeUIlCXFIWtrlMnnYvaBOhWAqQ" />
+
+<!--Twitter implementering-->
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Teknisk implementasjon av sosiale medier"/>
+<meta name="twitter:description" content="Se visuelt hvordan deling av ditt nettsted blir på sosiale medier "/>
+<meta name="twitter:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCt1wyduMMtEWecx0Wz9o17G5T5WejCCdIoO1IIsmSLrMcDHaM&s"/>
+
+<!--Facebook implementering-->
+<meta property="og:url" content="https://itstud.hiof.no/~aleksanf/webutvikling/oblig4/index.html"/>
+<meta property="og:title" content="Teknisk implementasjon av sosiale medier"/>
+<meta property="og:description" content="Se visuelt hvordan deling av ditt nettsted blir på sosiale medier"/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCt1wyduMMtEWecx0Wz9o17G5T5WejCCdIoO1IIsmSLrMcDHaM&s"/>
+
+
+<script src="../js/print.js"></script>
+
+<title>Sosiale Medier</title><!--Tittel i fanen når du er på siden-->
+
+</head>
+
+<body>
+
+<div class="wrapper3"><!--Lager en wrapper for selve siden hvor malen for grid og flex videre-->
+
+<header>
+
+<h2 id="overskrift">Ressursside i webutvikling</h2><!--lager en overskrift i headeren-->
+</header>
+
+ 
+<nav id="menyen">
+
+  <ul><!--Lager en meny i headeren-->
+  
+    <li><a href="../index.html">Hjem</a></li>
+    <li><a href="../html/htmlSkjemaer.html">HTML Skjemaer</a></li>
+    <li><a href="../html/mediaTypes.html">Media typer</a></li>
+    <li><a href="../html/cssLayout.html">CSS Layout</a></li>
+    <li><a href="../html/videoAudio.html">Video og audio</a></li>
+    <li><a href="../html/respDesign.html">Responsivt design</a></li>
+    <li><a href="../html/sass.html">Sass</a></li>
+    <li><a href="../html/seo.html">SEO</a></li>
+    <li><a href="../html/utforming.html">Universell utforming</a></li>
+    <li><a href="../html/sosialeMedier.html">Sosiale medier</a></li>
+    <li><a href="../html/microdata.html">Microdata (Schema)</a></li>
+    </ul>
+    <hr class="navUnderline">    
+</nav>
+
+
+
+<main>
+
+  <article class="artikkelSkjemaer"><!--artikkel mal for hovedinnholdet. Mal fra index siden-->
+  
+  
+    <h1>Sosiale medier</h1>
+    <p class="textHead1">04.09.2019</p>
+    <br>
+    <p class="textHeader">Teknisk implementasjon av sosiale medier</p>
+    <p>Implementasjon av sosiale medier på en nettside fra enten twitter eller facebook. Både facebook og twitter har hver sin måte å la oss lage slik at siden blir godt
+       på det sosiale markedet.Planen er å inkludere en rekke med open-graph regler. Det betyr at man tar i bruk &lt;meta&gt; taggen og implementerer det inn i &lt;head&gt; taggen.
+       Implementasjonen vil gjøres på både <a class="linker" href="../index.html">forsiden</a> og <a class="linker" href="sosialeMedier.html">denne siden</a>. </p>
+
+       <figure>
+         <img class="implementBilde" src="../bilder/implementering.jpg" alt="koden for implementering for facebook og twitter">
+         <figcaption>Koden for implementering for facebook og twitter</figcaption>
+       </figure>
+  
+       <p class="textHeader">Twitter</p>
+       <p>Twitter har en egen card developing. Hvor du kan utifra navn twitter: og det du vil fylle inn. Lager et card på hvordan det vil se ut. Under ser du hvordan mitt
+          ble utifra hvordan jeg lagde meta taggene med innholdet for kortet.
+       </p>
+       <figure>
+         <img class="microDataBilder" src="../bilder/twitter.jpg" alt="twitter card">
+         <figcaption>Hvordan mitt twitter card ser ut</figcaption>
+       </figure>
+
+       <p class="textHeader">Facebook</p>
+       <p>Facebook er en del annerledes enn twitter. Den benytter i meta taggen og: og så hva du vil ha som innhold og bilde etc. Derfra igjen må du ta i bruk facebook
+         developer 
+       </p>
+
+       <figure>
+          <img class="microDataBilder" src="../bilder/facebook.jpg" alt="facebook media">
+          <figcaption>Hvordan mitt facebook developer media ser ut</figcaption>
+        </figure>
+  
+   <p class="textHeader">Kilder:</p>
+    <p>- Tom Heine Nätt, E. M. (2017). Webutvikling. Gyldendal.</p>
+    <p>- Pdf fra forelesning om Sosiale medier</p>
+    <p><a class="linker" href="https://cards-dev.twitter.com/validator">- Twitter card validator</a></p>
+    <p><a class="linker" href="https://developers.facebook.com/docs/sharing/web">- Facebook developer: Sharing on the web</a></p>
+  
+    <br><br>
+    <div id="btnPrint">Skriv ut</div>
+  </article>
+  
+  </main>
+
+
+
+
+<footer id="footer"><!--Lager bunnteksten på siden-->
+
+  Aleksander Frydenlund | 2019  | <a class="linker" href="mailto:aleksanf@hiof.no">aleksanf@hiof.no</a> 
+
+</footer>
+
+
+</div>
+</body>
+</html>

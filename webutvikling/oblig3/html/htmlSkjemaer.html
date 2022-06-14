@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+<meta charset="utf-8">
+
+<!--Linker til de forskjellige stilarkene-->
+
+<link href="../stilark/mobilStilark.css" type="text/css" rel="stylesheet"/>
+
+<link href="../Sass/stilark.css" type="text/css" rel="stylesheet"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel = "stylesheet"
+type = "text/css"
+href = "../stilark/normalize.css" />
+
+<link  rel="stylesheet" 
+media="print" 
+href = "../stilark/print.css" />
+
+<script src="../js/print.js"></script>
+
+<title>HTML Skjemaer</title><!--Tittel i fanen når du er på siden-->
+
+</head>
+
+<body>
+
+<div class="wrapper2"><!--Lager en wrapper for selve siden hvor malen for grid og flex videre-->
+
+<header>
+
+<h2 id="overskrift">Ressursside i webutvikling</h2><!--lager en overskrift i headeren-->
+</header>
+
+ 
+<nav id="menyen"><!--Lager en meny i headeren-->
+
+  <ul>
+  
+    <li><a href="../index.html">Hjem</a></li>
+    <li><a href="../html/htmlSkjemaer.html">HTML Skjemaer</a></li>
+    <li><a href="../html/mediaTypes.html">Media typer</a></li>
+    <li><a href="../html/cssLayout.html">CSS Layout</a></li>
+    <li><a href="../html/videoAudio.html">Video og audio</a></li>
+    <li><a href="../html/respDesign.html">Responsivt design</a></li>
+    <li><a href="../html/sass.html">Sass</a></li>
+
+    </ul>
+    
+    <hr class="navUnderline">  
+</nav>
+
+
+
+<main>
+
+<article class="artikkelSkjemaer"><!--artikkel mal for hovedinnholdet. Mal fra index siden-->
+
+
+  <h1>HTML Skjemaer</h1>
+
+  <p>HTML Skjemaer er med på å gi brukeren av nettsiden ta ulike valg i forhold til hva som skal være på siden. 
+     Det er med på å sende data til serveren som brukeren har eller har lånt plass til. Man kan lage kontaktskjemaer, inputfelter og logge inn tjenester.
+     Man starter med en -form- tagg som er med på å lage brukerinput. Form har sine tileggs tagger (attributter). I form har du attributtene: (action, method, get og post).
+     Get og post er attributter som er med på sende og motta informasjon fra en server, mens action og method er de som forteller hva som gjøres i input taggen og hvordan det skal gjøres.
+    
+    Inni form er der input kommer inn. Man må ikke bruke form, men gir en mer ryddig struktur om man skal ha mange input tagger med flere ulike typer felter. Det er utrolig mange attributter for en input tagg. 
+    Har du lyst til å lese om alle kan du klikke <a href="https://www.w3schools.com/html/html_form_input_types.asp">her</a>, men jeg skal nevne de viktigste vi har med å gjøre og hvertfall de som trengs for å lage et kontaktskjema.
+    De vanligste felttypene man bruker er som regel typene:</p>
+
+    <div id="typeBox">
+    <p class="textHead2">Text</p><p> Den mest vanlige som lar deg legge inn generell text i et felt.</p>
+    <p class="textHead2">Password</p><p> Lar deg legge alle mulige tegn, men er i dette tilfellet skjult ved når man trykker de inn.</p>
+    <p class="textHead2">Submit</p><p> Det lager en knapp du kan bruke til å for eksempel sende skjema du lager.</p>
+    <p class="textHead2">number</p><p>da gir det en boks som man bare kan legge inn tall og ikke skrift annet enn bokstaven e ettersom det er et tall.</p>
+    <p class="textHead2">search</p><p>lager et søkefelt. Dette er viktig når det kommer til tilgjengelighet. Lettere å finne fram på siden.</p>
+    <p class="textHead2">email</p><p>den lager et felt som krever en email adresse for å fungere. Her er det @ som må være med for at det skal fungere.</p>
+    <p class="textHead2">textarea</p><p>gir deg et litt større felt å skrive i enn det text gjør. For eksempel fint til om du skal skrive blogginlegg eller andre ting.</p> 
+    </div>
+
+    <p>Det fins ganske mange flere typer i input taggen. Attributtene: (for, name og type) er de som brukes i input taggen. De er med på å kunne lese av hvilken input tag det er,
+      definere hvilken type det er og definere et navn som brukes for å hente fildata. Under finner du et eksempel på hva input kan brukes til for å lage et kontaktskjema. 
+    </p>
+    
+
+    <div id="kontaktskjema"><!--Lager et simpelt HTML skjema for å illustrere <input> type mulighetene-->
+<form>
+    <input type="text" placeholder="Fornavn">
+    <br>
+    <input type="text" placeholder="Etternavn">
+    <br>
+    <input type="email" placeholder="E-mail">
+    <br>
+    <input type="text" placeholder="Telefonnummer"  maxlength="8" >
+    <br>
+    Mann:<input type="checkbox">
+    Dame:<input type="checkbox" name="gender">
+</form>
+
+    <br>
+    
+    CV:<input type="file">
+    <br>
+    <textarea rows="15" cols="25" placeholder="skriv litt om deg selv"></textarea>
+    <input type="submit">
+    </div>
+
+    <br>
+
+    <p class="textHeader">Kilder:</p>
+
+  <p>- Tom Heine Nätt, E. M. (2017). Webutvikling. Gyldendal.</p>
+  <p>- Pdf fra forelesning om CSS Repsonsivt design</p>
+
+  <br><br>
+
+    <div id="btnPrint">Skriv ut</div><!--Lager en skriv ut knapp til utskrift av artikkelen-->
+
+</article>
+
+</main>
+
+<footer id="footer"><!--Lager bunnteksten på siden-->
+
+  Aleksander Frydenlund | 2019  | <a class="linker" href="mailto:aleksanf@hiof.no">aleksanf@hiof.no</a> 
+
+</footer>
+
+
+</div>
+</body>
+</html>

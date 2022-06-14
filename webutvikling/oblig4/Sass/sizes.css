@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* Lager hvor stor artiklene på forsiden er og understreken under dem*/
+/* line 2, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/sizes.scss */
+.artikkelFrame {
+  width: 500px;
+}
+
+/* line 8, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/sizes.scss */
+#artikkelLine {
+  margin-top: 30px;
+  width: 500px;
+}
+
+/* line 15, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/sizes.scss */
+#artikkelVideo {
+  width: 800px;
+  height: 400px;
+}
+
+/*========================================================================================*/
+
+/*# sourceMappingURL=sizes.css.map */

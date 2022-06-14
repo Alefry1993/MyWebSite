@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Microdata - Event</title>
+    <!--Linker til stilark-->
+    <link rel="stylesheet" type="text/css" media="screen" href="../stilark/microdata.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+</head>
+
+<body>
+
+    <main>
+
+        <section>
+
+            <article itemscope="itemscope" itemtype="https://schema.org/Event">
+
+                <h1 itemprop="name">Fotballkamp</h1>
+
+                <img itemprop="image" src="../bilder/kamp.jpg" width="300" >
+
+                <p>Lag som møtes: <span itemprop="attendee">Arsenal vs Manchester United</span> </p>
+                <p>Starttid: <span itemprop="startDate">2020-01-01T21:00:00</span> </p>
+                <p>Sluttid: <span itemprop="endDate">2020-01-01T22:45:00</span> </p>
+                <p>Når: <span itemprop="doorTime">21:00 </span> </p>
+                <p>Sted: <span itemprop="location" itemscope itemtype="https://schema.org/Place"><span itemprop="address">
+                   <a href="https://en.wikipedia.org/wiki/Emirates_Stadium">Emirates Stadium</a></span></span>
+                </p>
+               
+                <p>Antall plasser:  <span itemprop="maximumAttendeeCapacity">60 704</span></p>
+               
+            </article>
+
+        </section>
+
+
+    </main>
+
+
+
+</body>
+
+</html>

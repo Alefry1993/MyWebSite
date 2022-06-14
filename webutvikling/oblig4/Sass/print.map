@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "print.css",
+	"sources": [
+		"stilark/print.scss"
+	],
+	"sourcesContent": [
+		"/*Lager et media for å kunne lage et stilark for hvordan utskriften av artikkelene skal se ut*/\r\n@media print{\r\n\r\n\r\n    /*========================================================================================*/\r\n    \r\n    \r\n    /*Sier at header og utskrift knappen ikke skal være med på utskriften*/\r\n    header, nav, footer, #btnPrint, iframe{\r\n    \r\n        display: none;\r\n    \r\n    }\r\n    \r\n    \r\n    /*========================================================================================*/\r\n    \r\n    \r\n    /* generelt for hele main at den skal breake alle paragrafene når de slutter, så starter neste på siden etter*/\r\n    main{\r\n    \r\n        margin-top: -40px;\r\n        page-break-after: always;\r\n    \r\n    }\r\n    \r\n    /*========================================================================================*/\r\n    \r\n    \r\n    \r\n    /*Sier at hver paragraf stopper når den er ferdig og neste paragraf starter på siden etter. Gjør ting med ryddig. Denne spesielt for CSS layout delen*/\r\n    #par1 , #par2 , #par3 , #par4, #typebox, #filFormater, figure{\r\n    \r\n        page-break-after: always;\r\n    }\r\n    \r\n    \r\n    /*========================================================================================*/\r\n    \r\n    \r\n    #typeBox{\r\n    \r\n        page-break-after: always;\r\n    \r\n    }\r\n    }"
+	],
+	"names": [],
+	"mappings": ";AAAA,+FAA+F;AAC/F,MAAM,CAAC,KAAK;EAGR,4FAA4F;EAG5F,uEAAuE;;EACvE,AAAA,MAAM,EAAE,GAAG,EAAE,MAAM,EAAE,SAAS,EAAE,MAAM,CAAA;IAElC,OAAO,EAAE,IAAI;GAEhB;EAGD,4FAA4F;EAG5F,+GAA+G;;EAC/G,AAAA,IAAI,CAAA;IAEA,UAAU,EAAE,KAAK;IACjB,gBAAgB,EAAE,MAAM;GAE3B;EAED,4FAA4F;EAI5F,uJAAuJ;;EACvJ,AAAA,KAAK,EAAG,KAAK,EAAG,KAAK,EAAG,KAAK,EAAE,QAAQ,EAAE,YAAY,EAAE,MAAM,CAAA;IAEzD,gBAAgB,EAAE,MAAM;GAC3B;EAGD,4FAA4F;;EAG5F,AAAA,QAAQ,CAAA;IAEJ,gBAAgB,EAAE,MAAM;GAE3B"
+}

@@ -1,0 +1,406 @@
+@media only screen and (min-width: 600px){
+/*Selve menyen, hvordan den ser ut, hva som skjer når du tar musepekern over og når du trykker på den*/
+#menyen{
+  grid-area: nav;
+  width: 100%;
+  top: 0;
+  position: sticky;
+ 
+}
+
+#menyen ul{  
+ list-style: none;
+ background-color: white;
+ display: flex;
+ padding-inline-start: 0px;
+ 
+ margin-top: -2px;
+
+ 
+}
+  
+#menyen ul li{
+flex: auto;
+
+}
+
+  #menyen ul li a {  
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+   color: black;
+  font-size: 20px;
+  padding: 0.7rem;
+  }
+  
+  #menyen ul li:hover {  
+   background-color:gold;
+   font-style: italic;
+  
+  }
+
+  #menyen ul li a:active{  
+    transform: translateY(4px);
+   
+  }
+
+  .navUnderline{
+
+    margin-top: -17px;
+    height: 1px;
+    background-color: black;
+  }
+
+
+/*========================================================================================*/
+
+ /*Bakgrunnen i headeren*/
+header{ 
+  background-image: url("../bilder/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 113px;
+  
+}
+
+
+/*========================================================================================*/
+
+
+/*Selve tekst typene for hele siden*/
+body{
+  font-family: Verdana;
+  margin: 0 auto;
+  
+}
+
+
+/*========================================================================================*/
+
+
+
+
+
+/*Lager under wrapper for hver enkelt HTML dokument som sier hvordan gridden skal se ut og i hvilket area den skal være*/
+.wrapper{
+display: grid;
+text-align: center;
+grid-template-areas:
+" header header header header header header"
+"nav nav nav nav nav nav"
+" .  main . . aside   . "
+" footer footer footer footer footer footer"
+}
+
+.wrapper2{
+display: grid;
+text-align: center;
+grid-template-areas:
+" header header header header"
+"nav nav nav nav"
+" . main main  . "
+" footer footer footer footer"
+}
+
+.wrapper3{
+display: grid;
+text-align: center;
+grid-template-areas:
+" header header header header"
+"nav nav nav nav"
+"  .  main main . "
+" footer footer footer footer"
+}
+
+.wrapper4{
+display: grid;
+text-align: center;
+grid-template-areas:
+" header header header header"
+"nav nav nav nav"
+"  .  main main . "
+" footer footer footer footer"
+}
+
+
+/*========================================================================================*/
+
+
+/*Overskriften for nettsiden*/
+#overskrift{
+color: white;
+font-size: 40px;
+
+}
+
+
+/*========================================================================================*/
+
+
+/*Container er selve malen for flex området til artikkel linkene*/
+.container{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*========================================================================================*/
+
+
+/*Definerer grid området for header, main, footer og aside + legger til noe for å lage border rundt aside området*/
+header{
+  grid-area: header;
+ 
+}
+
+main{
+  grid-area: main;
+  padding-top: 30px;
+  
+  margin-top: 30px;
+}
+
+footer{
+   grid-area: footer;
+   padding-top: 8%; 
+   padding-bottom: 5%;
+   text-align: center;
+}
+
+
+aside{
+  grid-area: aside;
+  margin-top: 30px;
+  padding-top: 30px;
+  
+}
+
+
+/*========================================================================================*/
+
+
+/*Selve malen for hvor artikkelen skal ligge på hver av artikkel sidene*/
+.artikkelSkjemaer{
+
+  width: 800px;
+  line-height: 35px;
+  text-align: left;
+  justify-content: center;
+  
+}
+
+
+/*========================================================================================*/
+
+
+/*Lager en border rundt oversikten over alle media types*/
+#typeBox{
+
+  border: 1px solid black;
+  padding: 1%;
+  line-height: 18px;
+}
+
+
+/*========================================================================================*/
+
+
+/* Ulike størrelser for teksten i paragrafene*/
+.textHead1{
+  
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+}
+
+.textHead2{
+  font-weight: bold;
+  
+}
+
+.textHeader{
+  font-weight: bold;
+  font-size: 22px;
+  
+}
+
+h1{
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+}
+
+p{
+  color: rgb(0, 0, 0);
+}
+
+h2{
+  text-align: center;
+}
+
+/*========================================================================================*/
+
+
+/*Selve border rundt eksempelet av HTML skjema*/
+#kontaktskjema{
+
+ border: 1px solid black;
+ width: 280px;
+ padding: 1%;
+ margin: 0 auto;
+}
+
+
+/*========================================================================================*/
+
+
+/*Setter hvordan knappene til artikkelene og skriv ut skal se ut, hva som skjer når du tar musepekern over og når du trykker*/
+.btn{
+border-radius: 10px;
+background-color: gold;
+font-weight: bold;
+border: 3px solid rgba(0, 0, 0, 0.466);
+padding:  0.5rem 0.5rem ;
+width: 100px;
+margin: 0 auto;
+}
+
+.btn:hover{
+box-shadow: 0px 0px 15px rgb(0, 0, 0);
+text-decoration: underline;
+}
+
+.btn:active{
+  transform: translatey(2px);
+}
+
+#btnPrint{
+  border-radius: 10px;
+  background-color:  gold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  margin: 0 auto; 
+  border: 2px solid rgba(0, 0, 0, 0.466);
+  }
+  
+  #btnPrint:hover{
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  text-decoration: underline;
+  }
+  
+  #btnPrint:active{
+    transform: translateY(2px);
+  }
+
+
+/*========================================================================================*/
+
+
+  /*Definerer hvordan a linkene skal se ut og de linkene til kilder for repsonsivt design*/
+  a{
+
+  text-decoration: none;  
+  color: black;
+  
+
+  }
+
+  .linker{
+    color: blue;
+  }
+
+  .linker:hover{
+    text-decoration: underline;
+  }
+
+
+/*========================================================================================*/
+
+
+/* Sier hva bildene i artikkelene og på forsiden skal se ut*/  
+.layoutBilder{
+
+  width: 25rem;
+  height: 15rem;
+  
+}
+
+.layoutBilder2{
+
+  width: 25rem;
+  height: 25rem;
+
+}
+
+.forsideBilder1{
+
+  width: 10rem;
+  height: 18rem;
+
+}
+
+.forsideBilder2{
+
+  width: 20rem;
+  height: 15rem;
+
+}
+
+.microDataBilder{
+
+  width: 35rem;
+  height: 20rem;
+}
+
+.altBilde{
+  
+  width: 30rem;
+  
+}
+
+.valideringBilde{
+
+  width: 45rem;
+  height: 15rem;
+
+}
+
+.linkBilde{
+
+  width: 20rem;
+  height: 5rem;
+}
+/*========================================================================================*/
+
+
+/* Lager hvor stor artiklene på forsiden er og understreken under dem*/
+.artikkelFrame{
+
+  width: 500px;
+  
+}
+
+#artikkelLine{
+
+  margin-top: 30px;
+  width: 500px;
+  
+}
+
+
+/*========================================================================================*/
+
+#artikkelVideo{
+
+  width: 800px;
+  height: 400px;
+}
+
+
+
+
+  /*========================================================================================*/
+  
+}  

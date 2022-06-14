@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+
+<meta charset="utf-8">
+
+<!--Linker til de forskjellige stilarkene-->
+<link href="../stilark/mobilStilark.css" type="text/css" rel="stylesheet"/>
+
+<link href="../Sass/stilark.css" type="text/css" rel="stylesheet"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel = "stylesheet"
+type = "text/css"
+href = "../stilark/normalize.css" />
+
+<link  rel="stylesheet" 
+media="print" 
+href = "../stilark/print.css" />
+
+<script src="../js/print.js"></script>
+
+<title>Media Typer</title><!--Tittel i fanen når du er på siden-->
+
+</head>
+
+<body>
+
+<div class="wrapper3"><!--Lager en wrapper for selve siden hvor malen for grid og flex videre-->
+
+<header>
+
+<h2 id="overskrift">Ressursside i webutvikling</h2><!--lager en overskrift i headeren-->
+</header>
+
+ 
+<nav id="menyen">
+
+  <ul><!--Lager en meny i headeren-->
+  
+    <li><a href="../index.html">Hjem</a></li>
+    <li><a href="../html/htmlSkjemaer.html">HTML Skjemaer</a></li>
+    <li><a href="../html/mediaTypes.html">Media typer</a></li>
+    <li><a href="../html/cssLayout.html">CSS Layout</a></li>
+    <li><a href="../html/videoAudio.html">Video og audio</a></li>
+    <li><a href="../html/respDesign.html">Responsivt design</a></li>
+    <li><a href="../html/sass.html">Sass</a></li>
+
+    </ul>
+
+    <hr class="navUnderline">  
+</nav>
+
+
+
+<main>
+
+<article class="artikkelSkjemaer"><!--artikkel mal for hovedinnholdet. Mal fra index siden-->
+
+
+  <h1>Media Typer</h1>
+  <p>Starter med å vise under de ulike media typene basert på viktigheten.
+  </p>
+  <div id="typeBox">
+  <p class="textHeader">De ulike media typene:</p>
+  <p class="textHead1">De mere viktige:</p>
+  <p class="textHead2">All:</p><p> Selve default for medie typer for alle ulike enheter.</p>
+  <p class="textHead2">Print:</p><p> Lager en utskrifts modus for enhetene.</p>
+  <p class="textHead2">Screen: </p><p>Brukes ofte til å ordne på ulike størrelse på pc skjermer. Det brukes som oftest i sammarbeid med Media queries for å kunne endre enklere bredde og høyde på siden.</p>
+  <p class="textHead2">Speech:</p><p>Tar teksten eller innholdet på siden og leser det opp. Med speech kan man styre hvordan stemmen skal være og hastighet ting skal presenteres
+  Man kan også brukes pause-before og rest-after som vil være som margin/padding i forhold til tekst. Brukes også voice istedenfor font for å presentere hvordan lyden høres ut. </p>
+  <p class="textHead1">De litt mindre viktige:</p>
+  <p class="textHead2">Brailled:</p><p> Er ment for mere taktisk baserte enheter. Den leser teksten fra skjermen til brukeren. Godt for brukerer som er blinde.</p>
+  <p class="textHead2">Embossed:</p><p> Ment for side printing av Brailled enheter. </p>
+  <p class="textHead2">Handheld:</p><p> Sier seg egentlig i navnet, men er ment for håndholdte enheter. Er også på vei ut pågrunn av responsivt design. </p>
+  <p class="textHead2">Projection:</p><p>Brukes til prosjekt presentasjoner.Dette er noe som dør mer og mer ut pågrunn av responsivt design</p>
+  <p class="textHead2">Tty:</p><p>Brukes til fonter hvor hver karakter har samme bredde. Dette er vanligst for eldre skjermer.</p>
+  <p class="textHead2">Tv:</p><p>Brukes oftest til mere Tv baserte skjermer. Typiske skjermer med en god større størrelse enn vanlige pc skjermer.</p>
+  </div>
+  <p>
+     Generelt når det kommer til medie typer kan man egentlig få til det meste ettersom ulike typene gir deg valg om ulike midler.
+     Bare ved hjelp av speech og print kan du helt enkelt lage en lydbok. 
+     Utenom print og speech dekkes de fleste andre medietypene av regler for tilgjengelighet eller responsivt design.
+  </p>
+
+
+  <br>
+
+  <p class="textHeader">Kilder:</p>
+  <p><a class="linker" href="http://www.javascriptkit.com/dhtmltutors/cssmedia.shtml">- Info om de ulike medie typene fra javascriptkit</a> </p> 
+  <p>- Tom Heine Nätt, E. M. (2017). Webutvikling. Gyldendal.</p>
+  <p>- Pdf fra forelesning om CSS Repsonsivt design</p>
+  <br><br>
+  <div id="btnPrint">Skriv ut</div>
+</article>
+
+</main>
+
+
+
+
+<footer id="footer"><!--Lager bunnteksten på siden-->
+
+  Aleksander Frydenlund | 2019  | <a class="linker" href="mailto:aleksanf@hiof.no">aleksanf@hiof.no</a> 
+
+</footer>
+
+
+</div>
+</body>
+</html>

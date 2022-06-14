@@ -1,0 +1,29 @@
+  /*Definerer grid området for header, main, footer og aside + legger til noe for å lage border rundt aside området*/
+  header{
+    grid-area: header;
+    background-image: url("../bilder/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 110px;
+  }
+  
+  main{
+    grid-area: main;
+    padding-top: 30px;
+    
+  }
+  
+  footer{
+     grid-area: footer;
+     padding-top: 8%; 
+     padding-bottom: 5%;
+     text-align: center;
+  }
+  
+  
+  aside{
+    grid-area: aside;
+    padding-top: 30px;
+  }
+  
+  
+  /*========================================================================================*/

@@ -1,0 +1,117 @@
+
+#menyen ul{  /*Selve menyen*/
+ list-style: none;
+background-color:lightblue;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ padding-inline-start: 0px;
+ margin-top: 50px;
+   
+  }
+  
+#menyen ul li{
+flex: auto;
+}
+
+  #menyen ul li a {  /*Knappene*/
+  display: block;
+  padding: 2%;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  }
+  
+  #menyen ul li a:hover {  /*Hva skjer naar du tar museknappen over knappene*/
+   box-shadow: 0px 0px 15px rgb(0, 0, 0);
+   box-shadow: inset;
+   text-decoration: underline;
+  }
+
+  #menyen ul li a:active{  /*Hva skjer når du trykker på knappene*/
+    transform: translateY(2px);
+  }
+
+header{  /*Bakgrunnen i headeren*/
+  background-image: url("../bilder/header.png");
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.wrapper{
+display: grid;
+text-align: center;
+
+grid-auto-rows: 200px;
+grid-template-areas:
+"header header header header header header"
+"header header header header header header"
+". . . mainSite mainSite  ."
+"footer footer footer footer footer footer"
+"footer footer footer footer footer footer"
+}
+
+#overskrift{
+color: white;
+font-size: 46px;
+padding-top: 40px; 
+}
+
+
+.mainSite{
+grid-area: mainSite;
+margin-top: -100px;
+text-align: left;
+max-width: 1000px;
+line-height: 2rem;;
+}
+
+
+.btnTask{
+  text-decoration: none;
+}
+
+header{
+  grid-area: header;
+}
+
+
+footer{
+   grid-area: footer;
+   margin-top: 600px;
+   padding: 7%;
+  
+}
+
+
+
+p{
+  padding-top: 10px;
+}
+  
+hr{
+width: 250px;
+}
+
+.btnTasks{
+border-radius: 10px;
+background-color: lightblue;
+color: black;
+text-decoration: none;
+}
+
+.btnTasks:hover{
+box-shadow: 0px 0px 15px rgb(0, 0, 0);
+box-shadow: inset;
+}
+
+.btnLink{
+  background-color: lightblue;
+  color: black;
+  text-decoration: none;
+}

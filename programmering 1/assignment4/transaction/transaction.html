@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+
+<meta charset="utf-8">
+
+<link rel = "stylesheet"
+type = "text/css"
+href = "transaction.css" />
+
+<link rel = "stylesheet"
+type = "text/css"
+href = "../stilark/normalize.css" />
+
+<script src="transaction.js"></script>
+
+<title>Transaction progress</title>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<header>
+
+<h2 id="overskrift">Transaction Progress</h2><!--lager en overskrift i headeren-->
+ 
+<nav id="menyen">
+
+  <ul><!--Lager en meny i headeren-->
+    
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../wireframe/interface.html">User interface</a></li>
+      <li><a href="../transaction/transaction.html">Transaction 2.0</a></li>
+      
+  </ul>
+      
+</nav>
+</header>
+
+<body >
+<main class="mainSite">
+<input type="file" id="file">
+
+<br><br><br>
+
+<form>
+    <select id="mySelect" title="location" >
+      <option selected hidden>Select location</option>
+      <option>All</option>
+      <option>Fredrikstad</option>
+      <option>Halden</option>
+      <option>Oslo</option>
+      <option>Stavanger</option>
+    </select>
+  </form>
+
+<br><br>
+
+<table id="table">
+ 
+</table>
+
+<br><br>
+<table id="table2">
+  <tr>
+
+ </tr>
+
+    </table>
+    
+    
+    
+</main>
+
+<aside>
+<div id="canvasDecor" hidden>
+ <h1 id="canvasHead" hidden>Total costs in each locations</h1> 
+<canvas id="canvasGraph" width="600" height="550"></canvas>
+
+</div>
+
+
+</aside>
+
+</body>
+
+
+
+
+
+<footer id="footer"><!--Lager bunnteksten på siden-->
+<hr>
+  Aleksander Frydenlund | 2019  | <a href="mailto:aleksanf@hiof.no">aleksanf@hiof.no</a> 
+
+</footer>
+
+
+</div>
+</body>
+</html>

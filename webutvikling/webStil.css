@@ -1,0 +1,122 @@
+@media only screen and (min-width: 600px){
+header{  /*Bakgrunnen i headeren*/
+  background-image: url("../webutvikling/oblig3/bilder/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+.wrapper{
+  display: grid;
+  text-align: center;
+  grid-template-areas:
+  "header header header header header header header header header"
+  "header header header header header header  header header header"
+  ". . main1 main2 main3 main4 main5 . ."
+  ". . main1 main2 main3 main4 main5 . ."
+  "footer footer footer footer footer footer footer footer footer"
+  }
+  
+  #overskrift{
+  color: white;
+  font-size: 46px;
+  padding-top: 40px; 
+  }
+  
+  
+  .mainSite{
+  
+  display: flex;
+  justify-content: center;
+  }
+  
+  #klokke{
+    color: white;
+    float: left;
+    font-size:20px;
+    margin-left: 10px;
+  }
+  
+  #dato{
+    color: aliceblue;
+    float: right;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  
+  .btnTask{
+    text-decoration: none;
+  }
+  
+  header{
+    grid-area: header;
+  }
+  
+  
+  
+  .main1{
+    grid-area: main1;
+    padding-top: 30px;
+  }
+  
+  .main2{
+    grid-area: main2;
+    padding-top: 30px;
+  }
+  
+  .main3{
+    grid-area: main3;
+    padding-top: 30px;
+  }
+  
+  .main4{
+    grid-area: main4;
+    padding-top: 30px;
+  }
+  
+  .main5{
+    grid-area: main5;
+    padding-top: 30px;
+  }
+  
+  footer{
+     grid-area: footer;
+     padding-top: 12%; 
+     padding-bottom: 5%;
+  }
+  
+  p{
+    padding-top: 10px;
+  }
+    
+  hr{
+  width: 250px;
+  }
+  
+  .btnTasks{
+  border-radius: 10px;
+  background-color: lightblue;
+  color: black;
+  text-decoration: none;
+  }
+  
+  .btnTasks:hover{
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+  box-shadow: inset;
+  }
+  
+  .btnLink{
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+  }
+  
+  table, th, td, tr{
+    border: 1px solid black;
+  }
+}

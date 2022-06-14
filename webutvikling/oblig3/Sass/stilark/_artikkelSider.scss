@@ -1,0 +1,22 @@
+  /*Selve malen for hvor artikkelen skal ligge på hver av artikkel sidene*/
+  .artikkelSkjemaer{
+  
+    width: 800px;
+    line-height: 35px;
+    text-align: left;
+    justify-content: center;
+    
+  }
+  
+  
+  /*========================================================================================*/
+
+    /*Container er selve malen for flex området til artikkel linkene*/
+    .container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      
+      /*========================================================================================*/

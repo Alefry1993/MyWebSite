@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "semantikk.css",
+	"sources": [
+		"stilark/semantikk.scss"
+	],
+	"sourcesContent": [
+		"  /*Definerer grid området for header, main, footer og aside + legger til noe for å lage border rundt aside området*/\r\n  header{\r\n    grid-area: header;\r\n    background-image: url(\"../bilder/banner.jpg\");\r\n    background-repeat: no-repeat;\r\n    background-size: 100% 110px;\r\n  }\r\n  \r\n  main{\r\n    grid-area: main;\r\n    padding-top: 30px;\r\n    \r\n  }\r\n  \r\n  footer{\r\n     grid-area: footer;\r\n     padding-top: 8%; \r\n     padding-bottom: 5%;\r\n     text-align: center;\r\n  }\r\n  \r\n  \r\n  aside{\r\n    grid-area: aside;\r\n    padding-top: 30px;\r\n  }\r\n  \r\n  \r\n  /*========================================================================================*/"
+	],
+	"names": [],
+	"mappings": ";AAAE,mHAAmH;;AACnH,AAAA,MAAM,CAAA;EACJ,SAAS,EAAE,MAAM;EACjB,gBAAgB,EAAE,2BAA2B;EAC7C,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,UAAU;CAC5B;;;AAED,AAAA,IAAI,CAAA;EACF,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAElB;;;AAED,AAAA,MAAM,CAAA;EACH,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,EAAE;EACf,cAAc,EAAE,EAAE;EAClB,UAAU,EAAE,MAAM;CACpB;;;AAGD,AAAA,KAAK,CAAA;EACH,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,IAAI;CAClB;;AAGD,4FAA4F"
+}

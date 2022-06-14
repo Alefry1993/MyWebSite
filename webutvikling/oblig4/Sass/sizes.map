@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "sizes.css",
+	"sources": [
+		"stilark/sizes.scss"
+	],
+	"sourcesContent": [
+		"  /* Lager hvor stor artiklene på forsiden er og understreken under dem*/\r\n  .artikkelFrame{\r\n  \r\n    width: 500px;\r\n  \r\n  }\r\n  \r\n  #artikkelLine{\r\n  \r\n    margin-top: 30px;\r\n    width: 500px;\r\n    \r\n  }\r\n  \r\n   #artikkelVideo{\r\n  \r\n    width: 800px;\r\n    height: 400px;\r\n  } \r\n  /*========================================================================================*/"
+	],
+	"names": [],
+	"mappings": ";AAAE,uEAAuE;;AACvE,AAAA,cAAc,CAAA;EAEZ,KAAK,EAAE,KAAK;CAEb;;;AAED,AAAA,aAAa,CAAA;EAEX,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,KAAK;CAEb;;;AAEA,AAAA,cAAc,CAAA;EAEb,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CACd;;AACD,4FAA4F"
+}

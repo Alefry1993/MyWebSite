@@ -1,0 +1,50 @@
+/*Selve menyen, hvordan den ser ut, hva som skjer når du tar musepekern over og når du trykker på den*/
+#menyen{
+    grid-area: nav;
+    width: 100%;
+    top: 0;
+    position: sticky;
+   
+  }
+  
+  #menyen ul{  
+   list-style: none;
+   background-color: white;
+   display: flex;
+   padding-inline-start: 0px;
+   
+   margin-top: -2px;
+  
+   
+  }
+    
+  #menyen ul li{
+  flex: auto;
+  
+  }
+  
+    #menyen ul li a {  
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+     color: black;
+    font-size: 20px;
+    padding: 0.7rem;
+    }
+    
+    #menyen ul li:hover {  
+     background-color:gold;
+     font-style: italic;
+    
+    }
+  
+    #menyen ul li a:active{  
+      transform: translateY(4px);
+     
+    }
+  
+    #navUnderline{
+  
+      margin-top: -17px;
+    }
+  /*========================================================================================*/

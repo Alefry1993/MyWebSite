@@ -1,0 +1,193 @@
+
+#menyen ul{  /*Selve menyen*/
+ list-style: none;
+background-color:cyan;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ padding-inline-start: 0px;
+ margin-top: 50px;
+   
+  }
+  
+#menyen ul li{
+flex: auto;
+}
+
+  #menyen ul li a {  /*Knappene*/
+  display: block;
+  padding: 2%;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  }
+  
+  #menyen ul li a:hover {  /*Hva skjer naar du tar museknappen over knappene*/
+   box-shadow: 0px 0px 15px rgb(0, 0, 0);
+   box-shadow: inset;
+   text-decoration: underline;
+  }
+
+  #menyen ul li a:active{  /*Hva skjer når du trykker på knappene*/
+    transform: translateY(2px);
+  }
+
+header{  /*Bakgrunnen i headeren*/
+  background-image: url("../bilder/header.png");
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+.wrapper{
+display: grid;
+text-align: center;
+
+grid-auto-rows: 200px;
+grid-template-areas:
+" header header header header header "
+" header header header header header "
+" . . mainSite . ."
+" . . mainSite . . "
+" footer footer footer footer footer "
+" footer footer footer footer footer"
+}
+
+#overskrift{
+color: white;
+font-size: 46px;
+padding-top: 40px; 
+}
+
+
+.mainSite{
+grid-area: mainSite;
+margin-top: -100px;
+
+
+}
+
+#print2{
+
+  padding-bottom: 50px;
+
+}
+
+
+.btnTask{
+  text-decoration: none;
+}
+
+header{
+  grid-area: header;
+}
+
+
+footer{
+   grid-area: footer;
+   padding: 10%;
+   margin-top: 400px;
+}
+
+aside{
+  grid-area: aside;
+  padding-top: 30px;
+}
+
+p{
+  padding-top: 10px;
+  
+}
+
+#utskrifter{
+
+  margin-left: 500px;
+
+}
+
+hr{
+width: 100%;
+
+}
+
+.btnTasks{
+border-radius: 10px;
+background-color: lightblue;
+color: black;
+text-decoration: none;
+}
+
+.btnTasks:hover{
+box-shadow: 0px 0px 15px rgb(0, 0, 0);
+box-shadow: inset;
+}
+
+.btnLink{
+  background-color: lightblue;
+  color: black;
+  text-decoration: none;
+}
+
+table, #table2, tr, td{
+
+  border: 2px solid black;
+  border-spacing: 5px;
+ 
+  
+}
+
+
+
+#table, #table2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 120%; 
+  background-color: cyan;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+#table td, #table th,  #table2 td, #table2 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table2 tr:nth-child(even){background-color: #ffffff;
+color: rgb(0, 0, 0);
+font-weight: normal;
+}
+
+#table tr:nth-child(even){background-color: white;
+  color: black;
+  font-weight: normal;
+  }
+
+#table th,  #table2 tr {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: cyan;
+  color: black;
+  font-weight: bold;
+  
+
+}
+
+#canvasHead{
+  color: white;
+  background-color: black;
+}
+#canvasGraph{
+  background-color: black;
+}
+
+#interfaceBilde{
+margin-top: -30px ;
+  width: 1100px;
+  height: 600px;
+}

@@ -1,0 +1,380 @@
+
+/*Selve menyen*/
+
+#menyen ul{
+  list-style: none;
+  display: flex;
+  background-color: lightgray;
+  margin: 0;
+  
+}
+
+
+/*Knappene*/
+
+#menyen ul li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  padding: 10px 33.3px 10px 33.3px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  
+  
+}
+
+/*Hva skjer naar du tar museknappen over knappene*/
+
+#menyen ul li a:hover {
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    text-decoration: underline;
+    
+}
+
+header{
+    
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-top: 2px;
+  background-color: rgb(212, 224, 255);
+  margin-top: 0;
+  
+}
+
+/*Bodyen til siden*/
+
+#hovedomraade{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(212, 224, 255);
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  
+}
+
+#hovedsiden{
+
+  margin: 0 auto;
+  text-align: center;
+  max-width: 600px;
+  margin-top: 100px;
+  margin-bottom: -150px;
+}
+
+body{
+
+  margin: 0;
+  background-image: url("../assignment1/background/dark.jpg");
+  background-size: 115%;
+}
+
+
+/*Overskrift 2  til artikkel*/
+
+h1 {
+  
+   font-size: 36px;
+   
+}
+
+/*Overskriften i toppen av siden*/
+
+h2{
+padding-top: 30px;
+text-align: center;
+font-size: 40px;
+color: black;
+font-style: italic;
+max-width: 1000px;
+}
+
+
+/*Skriften inne i boksene til knappene på hovedsiden*/
+
+h3{
+
+font-size: 14px;
+
+}
+
+
+h4{
+ margin-bottom: -40px;
+ font-size: 12px;
+ text-decoration: underline;
+ font-style: italic;
+}
+
+/*tilpasning for dato oppe i høyre i header*/
+
+#dato{
+
+  float: right;
+  margin-top: -30px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+/*tilpasning for klokke oppe i venstre i header*/
+
+#klokke{
+
+  float: left;
+  margin-top: -30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+
+/*artikkelene*/
+
+#artikkel1{
+
+
+  margin-left: 50px;
+  margin-top:20px;
+  max-width: 500px;
+  float: left;
+
+}
+
+/*Hovedtekst til artikkelen*/
+
+#artikkel-tekst{
+
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  text-align: left;
+  float: left;
+
+}
+
+
+/*sizing for bildene på hver enkelt side*/
+
+#aside1{
+float: right;
+text-align: center;
+padding-top: 200px;
+padding-left: 15px;
+
+}
+
+
+#aside2{
+      float: right;
+      text-align: center;
+      padding-top: 350px;
+      width: 420px;
+      padding-left: 15px;
+      
+      }
+
+
+#aside3{
+  float: right;
+  text-align: center;
+  padding-top: 150px;
+  width: 420px;
+  padding-left: 15px;
+  
+  }
+
+  #aside4{
+    float: right;
+    text-align: center;
+    padding-top: 170px;
+    width: 420px;
+    padding-left: 15px;
+    
+    }
+
+/*Formen paa les mer knappen til oppgavene*/
+
+.klikk{
+
+  border: 3px solid rgb(92, 91, 91);
+  border-radius: 50px;
+  padding: 2px 7px 2px 7px;
+  background-color:  rgb(92, 91, 91);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  
+  
+
+
+}
+
+
+
+
+
+/*Alle divene for alle les mer knappene*/
+
+#button2{
+
+  border: double 10px rgb(92, 91, 91);
+  border-radius: 50px;
+  width: 150px;
+  height: 210px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: -50px;
+  
+}
+
+
+#button3{border: double 10px rgb(92, 91, 91);
+  border-radius: 50px;
+  width: 150px;
+  height: 210px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-top: -330px;
+  
+}
+
+
+#button4{
+  border: double 10px rgb(92, 91, 91);
+  border-radius: 50px;
+  width: 150px;
+  height: 210px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 450px;
+  margin-top: -330px;
+}
+
+#button5{
+border: double 10px rgb(92, 91, 91);
+border-radius: 50px;
+  width: 150px;
+  height: 210px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  }
+
+#button6{
+  border: double 10px rgb(92, 91, 91);
+  border-radius: 50px;
+  width: 150px;
+  height: 210px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 400px;
+  margin-top: -330px;
+}
+
+
+#button7{border: double 10px rgb(92, 91, 91);
+  border-radius: 50px;
+  width: 150px;
+  height: 210px;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-left: 650px;
+  margin-top: -330px;
+}
+
+
+
+/*Alle section hvor les mer knappene ligger*/ 
+
+#knappene1{
+
+  
+  float: left;
+  margin-top: 200px;
+  margin-left: 200px;
+ 
+}
+
+
+#knappene2{
+
+  float: left;
+  margin-top: -70px;
+  margin-right: 630px;
+  
+}
+
+
+/*Storrelsen paa bilde i oppgave 2 av illustrasjonsbilde*/
+
+#bilde1{
+  width: 300px;
+  height: 300px;
+  
+}
+
+/*Storrelsen paa bilder i oppgave 3*/
+
+#design{
+
+  width: 350px;
+  height: 350px;
+
+
+}
+
+/*Storrelsen paa bilder i oppgave 4 av serverne*/
+
+#server{
+
+
+  width: 250px;
+  height: 250px;
+
+}
+
+#server1{
+
+  width: 250px;
+  height: 200px;
+
+}
+/*Storrelsen paa bilder i oppgave 5*/
+
+#tagg{
+
+  width: 250px;
+  height: 250px;
+
+}
+
+#tagg2{
+
+  width: 250px;
+  height: 200px;
+
+}
+
+/*Teksten under bilde1*/
+
+figcaption{
+
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*sidens bunntekst*/
+
+footer{
+
+  clear: both;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 250px;
+  background-color: rgb(212, 224, 255);
+  padding-bottom: 30px;
+}
+
+

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+
+<meta charset="utf-8">
+
+<!--Linker til de forskjellige stilarkene-->
+<link href="../stilark/mobilStilark.css" type="text/css" rel="stylesheet"/>
+
+<link href="../stilark/stilark.css" type="text/css" rel="stylesheet"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel = "stylesheet"
+type = "text/css"
+href = "../stilark/normalize.css" />
+
+<link  rel="stylesheet" 
+media="print" 
+href = "../stilark/print.css" />
+
+<!--Bekreftelse på eierskap fra google-->
+<meta name="google-site-verification" content="MjpV88Y46wfTIx0jAgeUIlCXFIWtrlMnnYvaBOhWAqQ" />
+
+<!--beskrivelse og nøkkelord for nettsiden og denne siden-->
+<meta name="description" content="Hva er microdata">
+<meta name="keywords" content="Webutvikling, nettsider, Microdata">
+
+<script src="../js/print.js"></script>
+
+<title>Microdata</title><!--Tittel i fanen når du er på siden-->
+
+</head>
+
+<body>
+
+<div class="wrapper3"><!--Lager en wrapper for selve siden hvor malen for grid og flex videre-->
+
+<header>
+
+<h2 id="overskrift">Ressursside i webutvikling</h2><!--lager en overskrift i headeren-->
+</header>
+
+ 
+<nav id="menyen">
+
+  <ul><!--Lager en meny i headeren-->
+  
+    <li><a href="../index.html">Hjem</a></li>
+    <li><a href="../html/htmlSkjemaer.html">HTML Skjemaer</a></li>
+    <li><a href="../html/mediaTypes.html">Media typer</a></li>
+    <li><a href="../html/cssLayout.html">CSS Layout</a></li>
+    <li><a href="../html/videoAudio.html">Video og audio</a></li>
+    <li><a href="../html/respDesign.html">Responsivt design</a></li>
+    <li><a href="../html/sass.html">Sass</a></li>
+    <li><a href="../html/seo.html">SEO</a></li>
+    <li><a href="../html/utforming.html">Universell utforming</a></li>
+    <li><a href="../html/sosialeMedier.html">Sosiale medier</a></li>
+    <li><a href="../html/microdata.html">Microdata (Schema)</a></li>
+    </ul>
+    <hr class="navUnderline">    
+</nav>
+
+
+
+<main>
+
+  <article class="artikkelSkjemaer"><!--artikkel mal for hovedinnholdet. Mal fra index siden-->
+  
+  
+    <h1>Microdata</h1>
+    <p class="textHead1">02.09.2019</p>
+<br>
+    <p class="textHeader">Hva er microdata?</p>
+    <p>Microdata er noe som brukes for å gjøre det lettere å surfe gjennom nettsider. Man henter inn informasjon gjennom så kalte nettedderkopper(Web spiders).
+       De tar med seg informasjon fra microdataen slik at søkeresultater på for eksempel google vil lettere la deg komme til nettsiden som eddekoppene har hentet info fra. 
+       Derfor er microdata viktig å bruke på HTML som ikke er semantisk tagget. Med semantiske tagger kan eddekoppene lese info med engang, men taggene som ikke er semantisk
+       må ta i bruk microdata for at edderkoppene skal hente informasjon fra disse taggene i likhet med de semantiske.
+       Man legger da microdata ved å bruke attributter i HTML elementene. Disse forskjellige er:   
+    </p>
+
+    <ul>
+      <li>Itemscope: "Modertaggen"</li>
+      <li>Itemtype: Link til vokabular</li>
+      <li>Itemid: unik id</li>
+      <li>Itemprop: Hva beskriver denne taggen</li>
+      <li>Itemref: Kan referere til en itemid i en annen scope</li>
+    </ul>
+      <br>
+
+    <figure>
+      <img class="microDataBilder" src="../bilder/microdataEks.png">
+      <figcaption>Eksempel på html elementer med microdata tagger</figcaption>
+    </figure>
+
+    <br>
+
+    <p>Vi har WAI-ARIA, Schema og RDFa. I denne artikkelen blir det schema som vil bli tatt mest i bruk av de tre. 
+      Schema har forhåndsbestemte roller og egenskaper å koble opp mot et element der det definereres om hva et element er eller hva elementet gjør på siden. 
+      Bruken av de taggen lagt inn i HTML elementene har ingen visuell effekt på siden, men brukes av skjermlesere og andre programmer.  
+      <a class="linker" target="blank" href="https://schema.org/docs/schemas.html" >Schema.org </a>
+      har laget definisjoner på en lang rekke ting som personer, artikler, og lignende som brukes i Schema-strukturen.
+      Under har vi fem artikkel eksempler på hvordan schema-strukturen er tatt i bruk etter å ha brukt Schema.org som utgangspunkt. Har brukt google sitt testverktøy for å
+      kunne se hvordan resultatet blir. Vil du se hvordan artiklene ser ut i praksis enn kun kode og gjennom google kan du trykke på de blå linkene i overskriftene på hvert eksempel. 
+    </p>
+<br>
+    <h2>Eksempler på bruk av Schema</h2>
+    
+    <p class="textHeader"><a class="linker" href="../microEksempler/person.html">Eksempel 1</a></p>
+    <p>I første eksempel tar jeg for meg en person, altså en fotballspiller. Det legges til både bilde og informasjon om personen. Dokumentet er sendt gjennom google sitt testverktøy
+       og i hvert av bildene under ser du selve koden som er brukt for å lage dokumentet og hvordan testverktøyet leser informasjonen ut.
+    </p> 
+    <br>
+    <figure>
+      <figcaption>Hvordan selve koden ser ut:</figcaption>
+      <img class="microDataBilder" src="../bilder/microdataBilder/personKode.jpg">
+    </figure>
+    <br>
+    <figure>
+      <figcaption>Hvordan google sitt testverktøy tolker det:</figcaption>
+      <img class="microDataBilder" src="../bilder/microdataBilder/personImplement.jpg">
+    </figure>
+
+    <br>
+
+    <p class="textHeader"><a class="linker" href="../microEksempler/event.html">Eksempel 2</a></p>
+    <p>I det andre eksemplet er det et event som er brukt. Igjen er det både bilde og informasjon + pluss at det er testet gjennom google sitt verktøy for strukturert data.
+       Det vil vises bilde under av hvordan koden er lagd og hvordan google tolker det.
+    </p>
+
+    <br>
+
+    <figure>
+        <figcaption>Hvordan selve koden ser ut:</figcaption>
+        <img class="microDataBilder" src="../bilder/microdataBilder/eventKode.jpg">
+      </figure>
+      <br>
+      <figure>
+        <figcaption>Hvordan google sitt testverktøy tolker det:</figcaption>
+        <img class="microDataBilder" src="../bilder/microdataBilder/eventImplement.jpg">
+      </figure>
+
+      <br> 
+
+      <p class="textHeader"><a class="linker" href="../microEksempler/gruppe.html">Eksempel 3</a></p>
+    <p>I det tredje eksemplet er det en gruppe som er brukt. Dette er da en musikkgruppe. 
+       Igjen er det både bilde og informasjon + pluss at det er testet gjennom google sitt verktøy for strukturert data.
+        Det vil vises bilde under av hvordan koden er lagd og hvordan google tolker det.
+     </p>
+ 
+     <br>
+ 
+     <figure>
+         <figcaption>Hvordan selve koden ser ut:</figcaption>
+         <img class="microDataBilder" src="../bilder/microdataBilder/gruppeKode.jpg">
+       </figure>
+       <br>
+       <figure>
+         <figcaption>Hvordan google sitt testverktøy tolker det:</figcaption>
+         <img class="microDataBilder" src="../bilder/microdataBilder/gruppeImplement.jpg">
+       </figure>
+ 
+       <br> 
+
+       <p class="textHeader"><a class="linker" href="../microEksempler/produkt.html">Eksempel 4</a></p>
+    <p>I det fjerde eksemplet har jeg tatt for meg et produkt. Igjen generell informasjon og bilde av produktet.
+       Har også her brukt google sitt verktøy og lagt ved bilder under av resultat
+     </p>
+ 
+     <br>
+ 
+     <figure>
+         <figcaption>Hvordan selve koden ser ut:</figcaption>
+         <img class="microDataBilder" src="../bilder/microdataBilder/produktKode.jpg">
+       </figure>
+       <br>
+       <figure>
+         <figcaption>Hvordan google sitt testverktøy tolker det:</figcaption>
+         <img class="microDataBilder" src="../bilder/microdataBilder/produktImplement.jpg">
+       </figure>
+ 
+       <br> 
+
+    <p class="textHeader"><a class="linker" href="../microEksempler/organisasjon.html">Eksempel 5</a></p>
+    <p>I det femte og siste eksemplet har jeg tatt for meg en organisasjon. Kort info om bedriften og bilde av logoen deres.
+       Google sitt verktøy er også benyttet her som i alle de andre fire.
+     </p>
+ 
+     <br>
+ 
+     <figure>
+         <figcaption>Hvordan selve koden ser ut:</figcaption>
+         <img class="microDataBilder" src="../bilder/microdataBilder/organisasjonKode.jpg">
+       </figure>
+       <br>
+       <figure>
+         <figcaption>Hvordan google sitt testverktøy tolker det:</figcaption>
+         <img class="microDataBilder" src="../bilder/microdataBilder/organisasjonImplement.jpg">
+       </figure>
+ 
+       <br> 
+
+
+  
+   <p class="textHeader">Kilder:</p>
+    <p>- Tom Heine Nätt, E. M. (2017). Webutvikling. Gyldendal.</p>
+    <p>- Pdf fra forelesning om Microdata (Schema)</p>
+    <a class="linker" href="https://schema.org/">- Schema.org for microdata</a>
+  
+    <br><br>
+    <div id="btnPrint">Skriv ut</div>
+  </article>
+  
+  </main>
+
+
+
+
+<footer id="footer"><!--Lager bunnteksten på siden-->
+
+  Aleksander Frydenlund | 2019  | <a class="linker" href="mailto:aleksanf@hiof.no">aleksanf@hiof.no</a> 
+
+</footer>
+
+
+</div>
+</body>
+</html>

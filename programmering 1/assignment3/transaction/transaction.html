@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+
+<meta charset="utf-8">
+
+<link rel = "stylesheet"
+type = "text/css"
+href = "transaction.css" />
+
+<link rel = "stylesheet"
+type = "text/css"
+href = "../stilark/normalize.css" />
+
+<script src="transaction.js"></script>
+
+<title>Transaction progress</title>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<header>
+
+<h2 id="overskrift">Transaction Progress</h2><!--lager en overskrift i headeren-->
+ 
+<nav id="menyen">
+
+  <ul><!--Lager en meny i headeren-->
+    
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../transaction/transaction.html">Transaction</a></li>
+      <li><a href="../plan/plan.html">Plan</a></li>
+      <li><a href="../updatePlan/updatePlan.html">Updated Plan</a></li>
+  </ul>
+      
+</nav>
+</header>
+
+<body >
+<main class="mainSite">
+<input type="file" id="file">
+<br><br><br>
+<table id="table">
+    <th>Index</th>     
+    <th>Date</th>
+    <th>Type</th>
+    <th>Location</th>
+    <th>Amount</th>
+
+    
+</table>
+<br><br>
+<table id="table2">
+    <tr>
+        <th>Total locations</th>
+        <th>Total transactions</th>
+        <th>Total days</th>
+        <th>Total Amount</th>
+        <th>Average amount</th>
+        <th>Maximum amount</th>
+        <th>Minimum amount</th>
+        
+    </tr>
+    <tr>
+        <td id="countLocation"></td>
+        <td id="countTrans"></td>
+        <td id="countDays"></td> 
+        <td id="printTotal"></td>
+        <td id="printAmount"></td>
+        <td id="printMax"></td> 
+        <td id="printMin"></td>
+        
+    </tr>
+    </table>
+    
+</main>
+
+</body>
+
+
+
+
+
+<footer id="footer"><!--Lager bunnteksten på siden-->
+<hr>
+  Aleksander Frydenlund | 2019  | <a href="mailto:aleksanf@hiof.no">aleksanf@hiof.no</a> 
+
+</footer>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*Lager et media for å kunne lage et stilark for hvordan utskriften av artikkelene skal se ut*/
+@media print {
+  /*========================================================================================*/
+  /*Sier at header og utskrift knappen ikke skal være med på utskriften*/
+  /* line 9, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/print.scss */
+  header, nav, footer, #btnPrint, iframe {
+    display: none;
+  }
+  /*========================================================================================*/
+  /* generelt for hele main at den skal breake alle paragrafene når de slutter, så starter neste på siden etter*/
+  /* line 20, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/print.scss */
+  main {
+    margin-top: -40px;
+    page-break-after: always;
+  }
+  /*========================================================================================*/
+  /*Sier at hver paragraf stopper når den er ferdig og neste paragraf starter på siden etter. Gjør ting med ryddig. Denne spesielt for CSS layout delen*/
+  /* line 32, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/print.scss */
+  #par1, #par2, #par3, #par4, #typebox, #filFormater, figure {
+    page-break-after: always;
+  }
+  /*========================================================================================*/
+  /* line 41, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/print.scss */
+  #typeBox {
+    page-break-after: always;
+  }
+}
+
+/*# sourceMappingURL=print.css.map */

@@ -1,0 +1,43 @@
+/*Lager under wrapper for hver enkelt HTML dokument som sier hvordan gridden skal se ut og i hvilket area den skal være*/
+.wrapper{
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+    " header header header header header header"
+    "nav nav nav nav nav nav"
+    " . . main aside  . . "
+    " footer footer footer footer footer footer"
+    }
+    
+    .wrapper2{
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+    " header header header header"
+    "nav nav nav nav"
+    "  . . main .  "
+    " footer footer footer footer"
+    }
+    
+    .wrapper3{
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+    " header header header header"
+    "nav nav nav nav"
+    "  . . main .  "
+    " footer footer footer footer"
+    }
+    
+    .wrapper4{
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+    " header header header header"
+    "nav nav nav nav"
+    "  . . main .  "
+    " footer footer footer footer"
+    }
+    
+    
+    /*========================================================================================*/

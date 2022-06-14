@@ -1,0 +1,42 @@
+@media only screen and (min-width: 800px){
+h1{
+    font-size: 2rem;
+}
+
+p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+section{
+
+    border: 6px double black; width: 400px;
+    text-align: center;
+
+}
+}
+@media only screen and (max-width: 800px){
+
+    h1{
+        font-size: 2rem;
+    }
+    
+    p{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    section{
+    
+        border: 6px double black; width: 400px;
+        text-align: center;
+    
+    }
+
+main{
+
+    margin-left: 100px;
+    
+    zoom: 60%
+}
+}

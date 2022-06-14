@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+
+<meta charset="utf-8">
+
+<!--Linker til de forskjellige stilarkene-->
+<link href="../stilark/mobilStilark.css" type="text/css" rel="stylesheet"/>
+
+<link href="../stilark/stilark.css" type="text/css" rel="stylesheet"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel = "stylesheet"
+type = "text/css"
+href = "../stilark/normalize.css" />
+
+<link  rel="stylesheet" 
+media="print" 
+href = "../stilark/print.css" />
+
+<!--Bekreftelse på eierskap fra google-->
+<meta name="google-site-verification" content="MjpV88Y46wfTIx0jAgeUIlCXFIWtrlMnnYvaBOhWAqQ" />
+
+<!--beskrivelse og nøkkelord for nettsiden og denne siden-->
+<meta name="description" content="Hva er Video og audio">
+<meta name="keywords" content="Webutvikling, nettsider, Video, audio, video og audio">
+
+<script src="../js/print.js"></script>
+
+<title>Video og audio</title><!--Tittel i fanen når du er på siden-->
+
+</head>
+
+<body>
+
+<div class="wrapper3"><!--Lager en wrapper for selve siden hvor malen for grid og flex videre-->
+
+<header>
+
+<h2 id="overskrift">Ressursside i webutvikling</h2><!--lager en overskrift i headeren-->
+</header>
+
+ 
+<nav id="menyen">
+
+  <ul><!--Lager en meny i headeren-->
+  
+    <li><a href="../index.html">Hjem</a></li>
+    <li><a href="../html/htmlSkjemaer.html">HTML Skjemaer</a></li>
+    <li><a href="../html/mediaTypes.html">Media typer</a></li>
+    <li><a href="../html/cssLayout.html">CSS Layout</a></li>
+    <li><a href="../html/videoAudio.html">Video og audio</a></li>
+    <li><a href="../html/respDesign.html">Responsivt design</a></li>
+    <li><a href="../html/sass.html">Sass</a></li>
+    <li><a href="../html/seo.html">SEO</a></li>
+    <li><a href="../html/utforming.html">Universell utforming</a></li>
+    <li><a href="../html/sosialeMedier.html">Sosiale medier</a></li>
+    <li><a href="../html/microdata.html">Microdata (Schema)</a></li>
+    </ul>
+    <hr class="navUnderline">    
+</nav>
+
+
+
+<main>
+
+<article class="artikkelSkjemaer"><!--artikkel mal for hovedinnholdet. Mal fra index siden-->
+
+
+  <h1>Video og audio</h1>
+  <p class="textHead1">15.10.2019</p>
+  <p>Video og lyd er noe av det på en nettside som bringer fram et budskap på en helt annen måte enn for eksempel det artikler gjør. Istedenfor å lese lange artikler, så kan man heller
+    benytte seg av å lage lyd gjennom opptak for eksempel eller så kan man ta i bruk video. Ved bruk av video og lyd kan man fenge besøkende på nettsiden på en kanskje mer morsom og inngivende måte som
+    kanskje artikler ikke får til. 
+  </p>
+
+  <p class="textHeader">Video</p>
+  <p>Vi starter med å finne ut hvordan video fungerer på en nettside ved hjelp av HTML5. Du har flere muligheter å få en video på nettsiden din enten ved bruk av proprietær avspiller,
+     flashplayer eller flowplayer, embedde en video fra et annet nettsted som for eksempel youtube eller vimeo, link til fil/nedlasting eller du kan legge inn ved bruk av taggen video (Da forekommer det at videoen er lokalt på maskinen).
+     HTML5 tar støtte for flere typer filformater, men det er ikke alle nettlesere som vil kjøre enhver av dem. Listen over filformater ser du under.
+  </p>
+<form>
+     <ul id="filFormater">
+        <li>AV1 - fremtiden, men har dårlig støtte idag</li>
+        <li>WebM</li>
+        <li>Ogg Theora Vorbis</li>
+        <li>Ogg Opus</li>
+        <li>Ogg FLAC</li>
+        <li>Mp4 H.264 (AAC eller MP3)</li>
+        <li>Mp4 FLAC</li>
+        <li>MP3</li>
+        <li>WAVE PCM</li>
+        <li>FLAC</li>
+      </ul> 
+</form>
+<p>
+      Det er mange forskjellige typer filformater, men selvfølgelig må man ikke ta i bruk og embedde alle for å få opp enkel video på nettsiden. De tre vanligste formatene som blir oftest brukt er
+      WebM, Mp4 og Ogg/Ogv. WebM er et open source-prosjekt av google og bruker encoding VP8/VP9 som lyd. Mp4 er nok den mest populærer og gir best kvalitet. Den er også vanligste formatet for mobile enheter.
+      Den har encoding H.264. Ogg/Ogv har god kvalitet, men bildene vil være litt mer mørkere enn mp4, encodingen den bruker er Theora. Akkurat nå er det kun MP4 som kan benyttes i alle browsere, mens WebM og Ogg ikke er 
+      brukbare på safari eller internet explorer. Det er nettleser selv som avgjør utseende og endelig funksjonalitet.
+       Det er da ingen problem å få en video inn, men er heller bare ikke alle filformater som støttes i alle nettlesere.     
+  </p>
+  <figure>
+  <img class="layoutBilder2" src="../bilder/video.jpg">
+  <figcaption>Et eksempel på embedded video spilt av med Google chrome avspiller</figcaption>
+  </figure>
+ <br>
+ <p class="textHeader">Audio</p>
+ <p>Audio/lyd har veldig like muligheter som video til å legges på en nettside. Du kan også her bruke flashplayer, embedde lyd fra for eksempel soundcloud, egen tagg audio (passer med lokale filer).
+    I lyd er det egentlig kun tre filformater som blir brukt. De som blir brukt er Mp3, Wav og Ogg. I likhet med Mp4 for video er det her Mp3 som har bredest støtte i nettlesere, og er igjen safari og internett explorer som
+    ikke har for de andre. Safari har støtte for Wav, men ikke Ogg og explorer har ikke støtte for noen av de. Man kan kombinere med Video taggen for å oppnå lyd eller kun bruke audio tagg.
+    Samme som med video, så er det også her nettleseren som bestemmer utseende og endelig funksjonalitet.   
+ </p>
+<br><br>
+<figure>
+<iframe id="artikkelVideo" src="https://www.youtube.com/embed/OOy764mDtiA"></iframe>
+<figcaption>En enkel tutorial på hvordan du embedder en video i HTML5</figcaption>
+</figure>
+
+ <p class="textHeader">Kilder:</p>
+  <p>- Tom Heine Nätt, E. M. (2017). Webutvikling. Gyldendal.</p>
+  <p>- Pdf fra forelesning om Video og audio</p>
+
+  <br><br>
+  <div id="btnPrint">Skriv ut</div>
+</article>
+
+</main>
+
+
+
+
+<footer id="footer"><!--Lager bunnteksten på siden-->
+
+  Aleksander Frydenlund | 2019  | <a class="linker" href="mailto:aleksanf@hiof.no">aleksanf@hiof.no</a> 
+
+</footer>
+
+
+</div>
+</body>
+</html>

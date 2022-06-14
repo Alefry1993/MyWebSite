@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+
+<meta charset="utf-8">
+
+<!--Linker til de forskjellige stilarkene-->
+<link href="../stilark/mobilStilark.css" type="text/css" rel="stylesheet"/>
+
+<link href="../stilark/stilark.css" type="text/css" rel="stylesheet"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel = "stylesheet"
+type = "text/css"
+href = "../stilark/normalize.css" />
+
+<link  rel="stylesheet" 
+media="print" 
+href = "../stilark/print.css" />
+
+<!--Bekreftelse på eierskap fra google-->
+<meta name="google-site-verification" content="MjpV88Y46wfTIx0jAgeUIlCXFIWtrlMnnYvaBOhWAqQ" />
+
+<!--beskrivelse og nøkkelord for nettsiden og denne siden-->
+<meta name="description" content="Hva er Responsivt design">
+<meta name="keywords" content="Webutvikling, nettsider, Responsivt design">
+
+<script src="../js/print.js"></script>
+
+<title>Responsivt design</title><!--Tittel i fanen når du er på siden-->
+
+</head>
+
+<body>
+
+<div class="wrapper3"><!--Lager en wrapper for selve siden hvor malen for grid og flex videre-->
+
+<header>
+
+<h2 id="overskrift">Ressursside i webutvikling</h2><!--lager en overskrift i headeren-->
+</header>
+
+ 
+<nav id="menyen">
+
+  <ul><!--Lager en meny i headeren-->
+  
+    <li><a href="../index.html">Hjem</a></li>
+    <li><a href="../html/htmlSkjemaer.html">HTML Skjemaer</a></li>
+    <li><a href="../html/mediaTypes.html">Media typer</a></li>
+    <li><a href="../html/cssLayout.html">CSS Layout</a></li>
+    <li><a href="../html/videoAudio.html">Video og audio</a></li>
+    <li><a href="../html/respDesign.html">Responsivt design</a></li>
+    <li><a href="../html/sass.html">Sass</a></li>
+    <li><a href="../html/seo.html">SEO</a></li>
+    <li><a href="../html/utforming.html">Universell utforming</a></li>
+    <li><a href="../html/sosialeMedier.html">Sosiale medier</a></li>
+    <li><a href="../html/microdata.html">Microdata (Schema)</a></li>
+    </ul>
+    <hr class="navUnderline">    
+</nav>
+
+
+
+<main>
+
+<article class="artikkelSkjemaer"><!--artikkel mal for hovedinnholdet. Mal fra index siden-->
+
+
+  <h1>Responsivt design</h1>
+  <p class="textHead1">18.10.2019</p>
+  <p> 
+      Responsivt design er med på å gi en positiv innvirkning på hvor ofte det er nødvendig å oppdatere nettsiden.
+      Med media queries vil det være med på at siden vil skaleres automatisk i forhold til brukerens skjerm og størrelse.
+      Det man må tenke på er at innholdet vil bli veldig annerledes på mindre skjermer forhold til større og derfor er det best å skrive teksten lengre enn bredere.
+      Er lettere for en med mobil å scrolle opp og ned enn å måtte scrolle til høyre og venstre for å lese innholdet.
+      Med mobilbrukerer må man også tenke på touch ettersom man ikke har muligheten til å hovere over noe på en mobil som man har med pc.
+      Mobilens visning av en nettside slåss ofte om brukerens oppmerksomhet, så ofte er det greit å lage en hamburgermeny i forhold til vanlig på pc.
+      Uten responsivt design hadde ikke nettsiden passet for alle ulike skjermstørrelser. Det fins ulike tagger som er den del av responsivt design som hjelper til med ordning av nettsiden.
+      Hovedsakelig er det bruken av Flexbox og Grid de fleste kjenner til. Disse to er med på å stabilisere innholdet på nettsiden, slik at det lettere å holde orden.
+  </p>
+
+      <figure>
+      <img class="layoutBilder" src="../bilder/mediaBilde.png" alt="CSS">
+      <figcaption>responsivitet skal gjøre siden tilgjengelig for flere typer enheter som det er bilde av her.</figcaption>
+      </figure>
+
+      <br>
+
+      <p class="textHeader">CSS Media queries</p>
+      <p>
+         Media queries er et stilkonsept der man velger hvilken skjermstørrelse det skal gjelde for. Budskapet forblir det sammen.
+         Bare at media queries er med på å skalere for å kunne benyttes best mulig forskjellige enheter med forskjellig skjermstørrelse.
+         Det er i utgangspunktet en CSS teknikk som ble presentert i CSS3 og har blitt sett på som en stil teknikk.
+         Skal man ta til tanke for størrelsen skal man ta det av nettleservindu og ikke selve skjermen. 
+         Dette er fordi det har noe med at man tar til betrakning for målingsforholdene til device som sier hvordan nettleser rendrer selve skjermen.
+         For å skape dette benytter man seg av "@media only screen" og setter en maximum og minimum width for å si størrelsen på selve skjermbredden. 
+         For at man skal få media queries til å skulle fungere må man ha med "meta" tagg plassert i head seksjonen av HTML filen.
+      </p>
+
+<br>
+
+<figure>
+<img class="layoutBilder" src="../bilder/media.png">
+<figcaption>Media queries hjelper med ulike størrelser til alle enheter</figcaption>
+</figure>
+
+<br>
+
+<p>Responsivt design har både negative og positive sider. De positive sidene er at ved å gjøre nettsiden din responsiv vil det lettere for brukeren
+  ta benyttelse av nettsiden din på alle forskjellige enheter og få en mer brukervennlig nettside forhold til uten responsivitet og medie queries hjeloer godt med det.
+  Har ikke støtt på så mye problemer ennå, men har opplevd at forandring av flex i forhold til full skjerm og nedskalert skjerm. Når alt kommer til alt, så 
+  kan vi si at å gjøre siden din responsiv vil være med på å skape bedre struktur og gjøre det bedre for brukere av din nettside.
+</p>
+
+<p>Media typer er også en stor del av det å gjøre nettsiden din responsiv. Hver enkelt type er med på å kunne skape at nettsiden vil passe bedre for hvert enkelt enhet.Er de forskjellige typene noe av det du vil lese mer om er det skrevet en egen artikkel om nettop dette. Lyst å lese? <a class="linker" href="../html/mediaTypes.html">Trykk her!</a></p>
+
+<br>
+
+<p class="textHeader">Kilder:</p>
+<p>- Tom Heine Nätt, E. M. (2017). Webutvikling. Gyldendal.</p>
+<p>- Pdf fra forelesning om Responsiv design og media queries</p>
+<p><a class="linker" href="https://en.wikipedia.org/wiki/Media_queries">- Wikipedia om Media queries</a></p>
+
+  <br><br>
+
+<div id="btnPrint">Skriv ut</div>
+</article>
+
+</main>
+
+
+
+
+<footer id="footer"><!--Lager bunnteksten på siden-->
+
+  Aleksander Frydenlund | 2019  | <a class="linker" href="mailto:aleksanf@hiof.no">aleksanf@hiof.no</a> 
+
+</footer>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,350 @@
+@media only screen and (min-width: 600px){
+@charset "UTF-8";
+/* My main CSS-file: stilark.scss */
+/*Selve malen for hvor artikkelen skal ligge på hver av artikkel sidene*/
+/* line 2, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_artikkelsider.scss */
+.artikkelSkjemaer {
+  width: 800px;
+  line-height: 35px;
+  text-align: left;
+  justify-content: center;
+}
+
+/*========================================================================================*/
+/*Container er selve malen for flex området til artikkel linkene*/
+/* line 15, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_artikkelsider.scss */
+.container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/*========================================================================================*/
+/*========================================================================================*/
+/* Sier hva bildene i artikkelene og på forsiden skal se ut*/
+/* line 5, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_bilder.scss */
+.layoutBilder {
+  width: 25rem;
+  height: 15rem;
+}
+
+/* line 12, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_bilder.scss */
+.layoutBilder2 {
+  width: 25rem;
+  height: 25rem;
+}
+
+/* line 19, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_bilder.scss */
+.forsideBilder1 {
+  width: 10rem;
+  height: 18rem;
+}
+
+/* line 26, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_bilder.scss */
+.forsideBilder2 {
+  width: 20rem;
+  height: 15rem;
+}
+
+/*========================================================================================*/
+/*Lager en border rundt oversikten over alle media types*/
+/* line 2, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_borders.scss */
+#typeBox {
+  border: 1px solid black;
+  padding: 1%;
+  line-height: 18px;
+}
+
+/*========================================================================================*/
+/*Selve border rundt eksempelet av HTML skjema*/
+/* line 17, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_borders.scss */
+#kontaktskjema {
+  border: 1px solid black;
+  width: 280px;
+  padding: 1%;
+  margin: 0 auto;
+}
+
+/*========================================================================================*/
+/*Setter hvordan knappene til artikkelene og skriv ut skal se ut, hva som skjer når du tar musepekern over og når du trykker*/
+/* line 2, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_btnLinks.scss */
+.btn {
+  border-radius: 10px;
+  background-color: gold;
+  font-weight: bold;
+  border: 3px solid rgba(0, 0, 0, 0.466);
+  padding: 0.5rem 0.5rem;
+  width: 100px;
+  margin: 0 auto;
+}
+
+/* line 12, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_btnLinks.scss */
+.btn:hover {
+  box-shadow: 0px 0px 15px black;
+  text-decoration: underline;
+}
+
+/* line 17, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_btnLinks.scss */
+.btn:active {
+  transform: translatey(2px);
+}
+
+/* line 21, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_btnLinks.scss */
+#btnPrint {
+  border-radius: 10px;
+  background-color: gold;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  margin: 0 auto;
+  border: 2px solid rgba(0, 0, 0, 0.466);
+}
+
+/* line 32, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_btnLinks.scss */
+#btnPrint:hover {
+  box-shadow: 0px 0px 15px black;
+  text-decoration: underline;
+}
+
+/* line 37, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_btnLinks.scss */
+#btnPrint:active {
+  transform: translateY(2px);
+}
+
+/*========================================================================================*/
+/*Definerer hvordan a linkene skal se ut og de linkene til kilder for repsonsivt design*/
+/* line 46, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_btnLinks.scss */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 54, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_btnLinks.scss */
+.linker {
+  color: blue;
+}
+
+/* line 58, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_btnLinks.scss */
+.linker:hover {
+  text-decoration: underline;
+}
+
+/*Selve tekst typene for hele siden*/
+/* line 3, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_fontTexts.scss */
+body {
+  font-family: Verdana;
+  margin: 0 auto;
+}
+
+/*========================================================================================*/
+/*Overskriften for nettsiden*/
+/* line 12, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_fontTexts.scss */
+#overskrift {
+  color: white;
+  font-size: 40px;
+}
+
+/*========================================================================================*/
+/* Ulike størrelser for teksten i paragrafene*/
+/* line 22, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_fontTexts.scss */
+.textHead1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* line 27, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_fontTexts.scss */
+.textHead2 {
+  font-weight: bold;
+}
+
+/* line 32, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_fontTexts.scss */
+.textHeader {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* line 38, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_fontTexts.scss */
+h1 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+/* line 43, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_fontTexts.scss */
+p {
+  color: black;
+}
+
+/*========================================================================================*/
+/*Selve menyen, hvordan den ser ut, hva som skjer når du tar musepekern over og når du trykker på den*/
+/* line 2, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_nav.scss */
+#menyen {
+  grid-area: nav;
+  width: 100%;
+  top: 0;
+  position: sticky;
+}
+
+/* line 10, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_nav.scss */
+#menyen ul {
+  list-style: none;
+  background-color: white;
+  display: flex;
+  padding-inline-start: 0px;
+  margin-top: -2px;
+}
+
+/* line 21, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_nav.scss */
+#menyen ul li {
+  flex: auto;
+}
+
+/* line 26, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_nav.scss */
+#menyen ul li a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  padding: 0.7rem;
+}
+
+/* line 35, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_nav.scss */
+#menyen ul li:hover {
+  background-color: gold;
+  font-style: italic;
+}
+
+/* line 41, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_nav.scss */
+#menyen ul li a:active {
+  transform: translateY(4px);
+}
+
+/* line 46, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_nav.scss */
+.navUnderline {
+  margin-top: -17px;
+}
+
+/*========================================================================================*/
+/*Lager et media for å kunne lage et stilark for hvordan utskriften av artikkelene skal se ut*/
+@media print {
+  /*========================================================================================*/
+  /*Sier at header og utskrift knappen ikke skal være med på utskriften*/
+  /* line 9, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/print.scss */
+  header, nav, footer, #btnPrint, iframe {
+    display: none;
+  }
+  /*========================================================================================*/
+  /* generelt for hele main at den skal breake alle paragrafene når de slutter, så starter neste på siden etter*/
+  /* line 20, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/print.scss */
+  main {
+    margin-top: -40px;
+    page-break-after: always;
+  }
+  /*========================================================================================*/
+  /*Sier at hver paragraf stopper når den er ferdig og neste paragraf starter på siden etter. Gjør ting med ryddig. Denne spesielt for CSS layout delen*/
+  /* line 32, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/print.scss */
+  #par1, #par2, #par3, #par4, #typebox, #filFormater, figure {
+    page-break-after: always;
+  }
+  /*========================================================================================*/
+  /* line 41, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/print.scss */
+  #typeBox {
+    page-break-after: always;
+  }
+}
+
+/*Definerer grid området for header, main, footer og aside + legger til noe for å lage border rundt aside området*/
+/* line 2, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_semantikk.scss */
+header {
+  grid-area: header;
+  background-image: url("../bilder/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 110px;
+}
+
+/* line 9, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_semantikk.scss */
+main {
+  grid-area: main;
+  padding-top: 30px;
+}
+
+/* line 15, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_semantikk.scss */
+footer {
+  grid-area: footer;
+  padding-top: 8%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+/* line 23, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_semantikk.scss */
+aside {
+  grid-area: aside;
+  padding-top: 30px;
+}
+
+/*========================================================================================*/
+/* Lager hvor stor artiklene på forsiden er og understreken under dem*/
+/* line 2, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/sizes.scss */
+.artikkelFrame {
+  width: 500px;
+}
+
+/* line 8, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/sizes.scss */
+#artikkelLine {
+  margin-top: 30px;
+  width: 500px;
+}
+
+/* line 15, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/sizes.scss */
+#artikkelVideo {
+  width: 800px;
+  height: 400px;
+}
+
+/*========================================================================================*/
+/*Lager under wrapper for hver enkelt HTML dokument som sier hvordan gridden skal se ut og i hvilket area den skal være*/
+/* line 2, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_wrappers.scss */
+.wrapper {
+  display: grid;
+  text-align: center;
+  grid-template-areas: " header header header header header header"
+ "nav nav nav nav nav nav"
+ " . . main aside  . . "
+ " footer footer footer footer footer footer";
+}
+
+/* line 12, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_wrappers.scss */
+.wrapper2 {
+  display: grid;
+  text-align: center;
+  grid-template-areas: " header header header header"
+ "nav nav nav nav"
+ "  . . main .  "
+ " footer footer footer footer";
+}
+
+/* line 22, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_wrappers.scss */
+.wrapper3 {
+  display: grid;
+  text-align: center;
+  grid-template-areas: " header header header header"
+ "nav nav nav nav"
+ "  . . main .  "
+ " footer footer footer footer";
+}
+
+/* line 32, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/_wrappers.scss */
+.wrapper4 {
+  display: grid;
+  text-align: center;
+  grid-template-areas: " header header header header"
+ "nav nav nav nav"
+ "  . . main .  "
+ " footer footer footer footer";
+}
+
+/*========================================================================================*/
+
+/*# sourceMappingURL=stilark.css.map */
+}

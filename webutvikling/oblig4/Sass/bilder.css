@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*========================================================================================*/
+/* Sier hva bildene i artikkelene og på forsiden skal se ut*/
+/* line 5, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/bilder.scss */
+.layoutBilder {
+  width: 25rem;
+  height: 15rem;
+}
+
+/* line 12, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/bilder.scss */
+.layoutBilder2 {
+  width: 25rem;
+  height: 25rem;
+}
+
+/* line 19, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/bilder.scss */
+.forsideBilder1 {
+  width: 10rem;
+  height: 18rem;
+}
+
+/* line 26, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/bilder.scss */
+.forsideBilder2 {
+  width: 20rem;
+  height: 15rem;
+}
+
+/*========================================================================================*/
+
+/*# sourceMappingURL=bilder.css.map */
