@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "bilder.css",
+	"sources": [
+		"stilark/bilder.scss"
+	],
+	"sourcesContent": [
+		"  /*========================================================================================*/\r\n  \r\n  \r\n  /* Sier hva bildene i artikkelene og på forsiden skal se ut*/  \r\n  .layoutBilder{\r\n  \r\n    width: 25rem;\r\n    height: 15rem;\r\n    \r\n  }\r\n  \r\n  .layoutBilder2{\r\n  \r\n    width: 25rem;\r\n    height: 25rem;\r\n  \r\n  }\r\n  \r\n  .forsideBilder1{\r\n  \r\n    width: 10rem;\r\n    height: 18rem;\r\n  \r\n  }\r\n  \r\n  .forsideBilder2{\r\n  \r\n    width: 20rem;\r\n    height: 15rem;\r\n  \r\n  }\r\n  \r\n  \r\n  /*========================================================================================*/"
+	],
+	"names": [],
+	"mappings": ";AAAE,4FAA4F;AAG5F,6DAA6D;;AAC7D,AAAA,aAAa,CAAA;EAEX,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAEd;;;AAED,AAAA,cAAc,CAAA;EAEZ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAEd;;;AAED,AAAA,eAAe,CAAA;EAEb,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAEd;;;AAED,AAAA,eAAe,CAAA;EAEb,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;CAEd;;AAGD,4FAA4F"
+}

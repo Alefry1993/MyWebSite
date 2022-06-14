@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*Definerer grid området for header, main, footer og aside + legger til noe for å lage border rundt aside området*/
+/* line 2, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/semantikk.scss */
+header {
+  grid-area: header;
+  background-image: url("../bilder/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 110px;
+}
+
+/* line 9, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/semantikk.scss */
+main {
+  grid-area: main;
+  padding-top: 30px;
+}
+
+/* line 15, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/semantikk.scss */
+footer {
+  grid-area: footer;
+  padding-top: 8%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+/* line 23, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/semantikk.scss */
+aside {
+  grid-area: aside;
+  padding-top: 30px;
+}
+
+/*========================================================================================*/
+
+/*# sourceMappingURL=semantikk.css.map */

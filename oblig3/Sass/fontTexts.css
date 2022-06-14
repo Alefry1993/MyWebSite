@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*Selve tekst typene for hele siden*/
+/* line 3, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/fontTexts.scss */
+body {
+  font-family: Verdana;
+}
+
+/*========================================================================================*/
+/*Overskriften for nettsiden*/
+/* line 12, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/fontTexts.scss */
+#overskrift {
+  color: white;
+  font-size: 40px;
+}
+
+/*========================================================================================*/
+/* Ulike størrelser for teksten i paragrafene*/
+/* line 22, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/fontTexts.scss */
+.textHead1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* line 27, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/fontTexts.scss */
+.textHead2 {
+  font-weight: bold;
+}
+
+/* line 32, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/fontTexts.scss */
+.textHeader {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* line 38, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/fontTexts.scss */
+h1 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+/* line 43, ../../Users/ale-f/OneDrive/Documents/skole/skole 2019-/bachelor i data ingeniør/Nettsidene til Bachelor/htdocs/webutvikling/oblig3/Sass/stilark/fontTexts.scss */
+p {
+  color: black;
+}
+
+/*========================================================================================*/
+
+/*# sourceMappingURL=fontTexts.css.map */
